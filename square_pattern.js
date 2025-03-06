@@ -19,3 +19,20 @@ print_sqaure_pattern();
 // * * * 
 // * * * * * * 
 // * * * * * * * * * 
+
+
+function print_sqaure_pattern_without_row_var(){
+    let n = prompt("Enter a positive number to print pattern:");
+    if (n<=0){
+        console.log("enter a positive number")
+    }
+    for(let i=0; i<n; i++){
+        row=''
+        for(let j=0; j<n; j++){
+            process.stdout.write('* ') //using process.stdout.write() it writes directly to the standard output stream without adding a newline character. but it only prints string values .
+        }
+        console.log(row);
+    }
+}
+
+print_sqaure_pattern_without_row_var();

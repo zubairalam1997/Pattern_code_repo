@@ -10,3 +10,10 @@ def square_pattern():
         print()
 
 square_pattern()
+
+# Output//
+# Enter a number: 4
+#  *  *  *  * 
+#  *  *  *  *
+#  *  *  *  *
+#  *  *  *  *
